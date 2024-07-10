@@ -107,7 +107,7 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Color.fromRGBO(231, 249, 218, 1),
+        backgroundColor: Color.fromRGBO(197, 220, 241, 1.0),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             _showAddTaskDialog();
@@ -129,7 +129,7 @@ class _LoginState extends State<Login> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Container(
-                        color: Colors.blueAccent,
+                        color: Color.fromRGBO(172, 210, 253, 1.0),
                         height: 200,
                         child: Center(
                           child: ElevatedButton(
